@@ -1,12 +1,24 @@
 {
-  "name": "LIRI-Bot",
+  "name": "axios",
   "version": "1.0.0",
   "description": "",
-  "main": "liri-bot.js",
+  "main": ".env.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shruti2648/LIRI-Node-App.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shruti2648/LIRI-Node-App/issues"
+  },
+  "homepage": "https://github.com/Shruti2648/LIRI-Node-App#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
